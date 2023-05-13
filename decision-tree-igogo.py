@@ -1,18 +1,32 @@
 decision_tree = {
-    "Is it fiction?": {
+    "Is it undefine?": {
         "Yes": {
-            "Is it a mystery?": {
-                "Yes": "Mystery",
-                "No": "General Fiction"
+            "Is it a devops?": {
+                "Yes": "Devops",
+                "No": "Python"
             }
         },
         "No": {
             "Is it a biography?": {
                 "Yes": "Biography",
-                "No": "Non-Fiction"
+                "No": "Non-Fiction",
+                "Documentation": {
+                    "Does it have a format?": {
+                    "URl": "Save as url in confluence",
+                    "PDF": "Save as file in catalog",
+                    "Directory": "Save as directory using rsync"
             }
         }
-    }
+            }
+        }
+    },
+        "Documentation": {
+            "Does it have a format?": {
+                "URl": "Save as url in confluence",
+                "PDF": "Save as file in catalog",
+                "Directory": "Save as directory using rsync"
+            }
+        }
 }
 
 
