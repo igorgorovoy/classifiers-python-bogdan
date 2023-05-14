@@ -1,5 +1,6 @@
 import random
 
+
 class Perceptron:
     def __init__(self, num_inputs):
         self.weights = [random.uniform(-1, 1) for _ in range(num_inputs)]
