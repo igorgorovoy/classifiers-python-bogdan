@@ -24,7 +24,7 @@ def backward(x, y, output, hidden_output, weights1, bias1, weights2, bias2):
 
 # Initialize the parameters of the network
 input_size = 2
-hidden_size = 4
+hidden_size = 16
 output_size = 1
 
 weights1 = np.random.randn(input_size, hidden_size)
